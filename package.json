@@ -1,5 +1,5 @@
 {
-  "name": "resume",
+  "name": "profile",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,10 +15,13 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.7.7",
     "multiparty": "^4.2.2",
-    "nodemailer": "^6.6.3"
+    "nodemailer": "^6.6.3",
+    "path": "^0.12.7"
   },
   "engines": {
-    "node":"14.17.3"
+    "node": "14.17.3"
   }
 }

@@ -1,10 +1,11 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
+const app = express();
 const path = require("path");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
-const app = express();
+
 const PORT = process.env.PORT || 5000;
 
 app.engine('hbs', exphbs({ extname: '.hbs', defaultLayout: false, layoutsDir: "views/layout" }));
