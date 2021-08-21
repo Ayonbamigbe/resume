@@ -19,7 +19,11 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.get('/', (req, res) => {
-    res.render('layout')
+  res.render('layout')
+});
+
+app.get('/send', (req, res) => {
+  res.render('layout')
 });
 
 app.post('/send', (req, res) => {
