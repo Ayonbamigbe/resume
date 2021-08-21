@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Daramola Ayobami | Web dev</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">Ayobami</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                <a href="#services" class="nav__link">
+                    <i class="uil uil-briefcase nav__icon"></i>Services
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#portfolio" class="nav__link">
+                    <i class="uil uil-scenery nav__icon"></i>Portfolio
+                </a>
+            </li> -->
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme Change Button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid" data-aos="fade-in">
+                <div class="home__content grid">
+                    
+                    <div class="home__img">
+                        {{msg}}
+
+                    </div>
+                    
+    </main>
+
+    <!---------FOOTER---------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Ayobami</h1>
+                    <span class="footer__subtitle">Web developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <!-- <li>
+                                <a href="#services" class="footer__link">Services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="footer__link">Portfolio</a>
+                            </li> -->
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://medium.com/@Ayonbamigbe" target="_blank" class="footer__social">
+                        <i class="uil uil-medium-m"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ayonbamigbe/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com/ayonbamigbe" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Ayobami. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!---------SCROLL TOP---------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    {{!--
+    <script src="js/contactMe.js"></script> --}}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+            once: false
+        });
+    </script>
+</body>
+
+</html>
